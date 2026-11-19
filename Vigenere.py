@@ -1,3 +1,7 @@
+from collections import Counter
+
+from Caesar import caesar, chi_squared
+
 def vigenere(text, key, decrypt=False):
     hasil =""
     i=0
